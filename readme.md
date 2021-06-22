@@ -1,14 +1,19 @@
 Automate login and disconnecting of openvpen connections
 
 TO SETUP
-1 - Make sure you have expect installed 
-  sudo apt-get install expect 
-2 - modify the openvpn_login.exp with your login credentials 
-save both files in home directory 
-3 a - chmod +x openvpn_disconnect.sh
-  b - chmod +x openvpn_login.exp 
-4 - Done!! 
 
+<ol>
+<li>1 - Make sure you have expect installed 
+  sudo apt-get install expect</li>
+<li>modify the openvpn_login.exp with your login credentials 
+save both files in home directory</li>
+<li><ol>
+<li>chmod +x openvpn_disconnect.sh
+</li>
+<li>chmod +x openvpn_login.exp</li>
+</ol></li>
+<li> Done!! </li>
+</ol> 
 
 To RUN
 $./openvpn_login.exp 
