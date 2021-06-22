@@ -1,0 +1,15 @@
+#!/usr/bin/expect -f
+
+set timeout -1
+
+spawn openvpn3 session-start --config client.ovpn
+
+expect "Auth User name:" 
+
+send -- "<enter user name here>\r"
+
+expect "Auth Password:"
+
+send -- "<enter password here>\r"
+
+interact
