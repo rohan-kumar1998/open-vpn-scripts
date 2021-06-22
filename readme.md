@@ -1,4 +1,4 @@
-# Automate login and disconnecting of openvpen connections
+# Automate login and disconnecting of openvpn connections
 
 ## TO SETUP
 
