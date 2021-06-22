@@ -22,6 +22,6 @@
 ### $./openvpn_login.exp
 - to login 
 - if you have 2 factor auth then, you only need to provide 2 factor auth<br> 
-### $./openvpn_disconnect.exp
+### $./openvpn_disconnect.sh
 - to disconnect 
 
