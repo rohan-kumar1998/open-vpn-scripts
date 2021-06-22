@@ -25,3 +25,8 @@
 ### $./openvpn_disconnect.sh
 - to disconnect 
 
+## To connect/disconnect with vpn from any location in terminal
+### $alias <shell-command>=<full-path-of-openvpn_login.exp>
+- replace shell-command with the suitable alias like vpnconnect<br>
+### $alias <shell-command>=<full-path-of-openvpn_disconnect.sh>
+- replace shell-command with the suitable alias like vpndisconnect
