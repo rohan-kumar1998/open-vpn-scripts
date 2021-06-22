@@ -1,6 +1,6 @@
 Automate login and disconnecting of openvpen connections
 
-TO SETUP
+##TO SETUP
 
 <ol>
 <li>Make sure you have expect installed 
@@ -18,10 +18,10 @@ TO SETUP
 <li> Done!! </li>
 </ol> 
 
-To RUN
-$./openvpn_login.exp 
+##To RUN
+$./openvpn_login.exp
 - to login 
-- if you have 2 factor auth then, you only need to provide 2 factor auth 
+- if you have 2 factor auth then, you only need to provide 2 factor auth<br> 
 $./openvpn_disconnect.exp
 - to disconnect 
 
