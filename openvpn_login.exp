@@ -2,9 +2,7 @@
 
 set timeout -1
 
-spawn export config_file=/path/to/config
-
-spawn openvpn3 session-start --config $config_file
+spawn openvpn3 session-start --config /path/to/config
 
 expect "Auth User name:" 
 
