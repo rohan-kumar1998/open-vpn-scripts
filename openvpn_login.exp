@@ -2,7 +2,9 @@
 
 set timeout -1
 
-spawn openvpn3 session-start --config client.ovpn
+config_file=/path/to/config
+
+spawn openvpn3 session-start --config $config_file
 
 expect "Auth User name:" 
 
