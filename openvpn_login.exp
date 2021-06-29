@@ -2,7 +2,7 @@
 
 set timeout -1
 
-config_file=/path/to/config
+spawn export config_file=/path/to/config
 
 spawn openvpn3 session-start --config $config_file
 
